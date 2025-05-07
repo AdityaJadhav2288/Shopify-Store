@@ -6,7 +6,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = '^_g%33qd(g8bjc+*40&uh(ptgkb$&-*+0!i3$lu7xj1u166cbb'
 DEBUG = True
-ALLOWED_HOSTS = ['*']  # Change this in production
+ALLOWED_HOSTS = ['.onrender.com', 'localhost']
+
 
 # Application definition
 INSTALLED_APPS = [

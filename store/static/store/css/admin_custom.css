@@ -1,0 +1,75 @@
+/* Custom admin CSS */
+body {
+    background-color: #f0f2f5;
+}
+
+#header {
+    background-color: #004080;
+    color: white;
+}
+
+#header h1 {
+    font-weight: bold;
+}
+
+.module caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #004080;
+}
+
+.dashboard-module {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #004080;
+}
+
+a:hover {
+    color: #00264d;
+}
+
+.admin-btn {
+    background-color: #004080;
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

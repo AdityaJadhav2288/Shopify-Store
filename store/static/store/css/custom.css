@@ -1,0 +1,98 @@
+/* Custom project-wide styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    background-image: url('../images/shirts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #343a40 !important;
+}
+
+.nav-link {
+    color: #343a40 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 2rem 0;
+}
+
+footer a.fa {
+    transition: background-color 0.3s ease;
+}
+
+footer a.fa:hover {
+    opacity: 0.8;
+}
+
+.btn-outline-secondary {
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Additional spacing for main content */
+main {
+    padding: 2rem 0;
+}
+
+.btn {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
